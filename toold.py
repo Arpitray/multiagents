@@ -22,7 +22,8 @@ def web_search(query: str) -> str:
     return "\n".join(out)
 
 
-print(web_search.invoke("what are the recent news about war ,iran and russia?"))
+# Test code - uncomment below to test locally
+# print(web_search.invoke("what are the recent news about war ,iran and russia?"))
 
 
 @tool
@@ -39,4 +40,5 @@ def scrap_url(url: str) -> str:
         return "Error occurred while scraping the URL."
 
 
-print(scrap_url.invoke("https://www.nbcnews.com/world/iran-war"))
+# Test code - uncomment below to test locally
+# print(scrap_url.invoke("https://www.nbcnews.com/world/iran-war"))

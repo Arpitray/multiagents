@@ -39,9 +39,9 @@ tqdm>=4.66.4
 # JSON handling improvements
 orjson>=3.10.0
 
-# Optional: FastAPI (if you plan to expose API)
 fastapi>=0.111.0
 uvicorn>=0.30.0
+pydantic>=2.7.0
 
 # Optional: Jupyter for testing
 ipython>=8.24.0
